@@ -1,0 +1,15 @@
+{
+"name":"Unload warning remover",
+"author":"iam-py-test and contributors",
+"manifest_version": 2,
+  "permissions": [
+  "storage",
+  "webNavigation",
+  "tabs",
+  "<all_urls>"
+  ],
+  "background":{
+  "scripts":["back.js"]
+  },
+  "version":"1.0"
+}
