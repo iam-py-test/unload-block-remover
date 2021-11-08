@@ -1,6 +1,7 @@
 {
 "name":"Unload warning remover",
 "author":"iam-py-test and contributors",
+"description":"An extension to remove annoying (and sometimes dangerous) unload warnings from websites",
 "manifest_version": 2,
   "permissions": [
   "storage",
