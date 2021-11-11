@@ -2,6 +2,9 @@
 "name":"Unload warning remover",
 "author":"iam-py-test and contributors",
 "homepage_url":"https://github.com/iam-py-test/unload-block-remover",
+"options_ui": {
+  "page": "options.html"
+},
 "description":"An extension to remove annoying (and sometimes dangerous) unload warnings from websites",
 "manifest_version": 2,
   "permissions": [
@@ -12,5 +15,5 @@
   "background":{
   "scripts":["back.js"]
   },
-  "version":"1.0"
+  "version":"1.1"
 }

@@ -1,5 +1,5 @@
 try{
-	  var alloweddomains = JSON.parse(localStorage.getItem("allowlist"))
+	  var alloweddomains = (JSON.parse(localStorage.getItem("allowlist"))||"[]")
 	}
 	catch(err){
 		console.log(err)
